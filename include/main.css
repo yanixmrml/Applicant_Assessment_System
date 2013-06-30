@@ -1,0 +1,240 @@
+body{
+	font-family:Calibri;	
+	background-image:url(/Applicant_Assessment_System/images/tempBackground.png);
+	height:auto;
+}
+
+.graph{
+	border: 2px solid #C0DFFD;
+	font-size: 14px;
+	padding: 5px;
+	margin: 5px;
+}
+
+#backgroundDown{
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	width: 100%;
+	height: 100px;
+	background:url("/Taurent_Travel/images/headerDesign.png") repeat;
+	z-index: -2;
+}
+
+#backgroundUp{
+	position: fixed;
+	top:0px;
+	right:0px;
+	width: 100%;
+	height: 100px;
+	background:url("/Taurent_Travel/images/headerDesign.png") repeat;
+	z-index: -1;
+}
+
+#header{
+	height: 150px;
+	background: url(../images/map.png) repeat;
+}
+
+.subhead{
+	background: url("/Taurent_Travel/images/left.png") 14px 45% repeat;
+	font-family:Calibri;
+	font-size:12pt;
+}
+
+.orangeBackground{
+	background:rgb(255, 249, 173);
+	font-family:Calibri;
+	font-size:10pt;
+	font-weight:bold;
+	padding:5px;
+	border: 2px solid #C0DFFD;
+	vertical-align:middle;
+}
+
+.division{
+	border: 2px solid #C0DFFD;
+	background-color:#FFFFFF;
+}
+
+#footer{
+	font-size:12px;
+}
+
+.mainBody{
+		
+	border: 2px solid #C0DFFD;	
+	background: #FFFFFF;
+	padding:10pt;
+	min-width: 650px;
+	min-height: 950px;
+	
+	border-radius: 1em; /* This was added */
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .8);
+	
+}
+
+.leftnav {
+	font-family:Calibri
+	background-image:url(/Applicant_Assessment_System/images/div.png);	
+}
+
+.navigation td {
+	border-bottom: 2px solid #C0DFFD;
+	background-color:#C0DFFD;
+	width: 30em;
+	text-align: center;
+	
+}
+	
+.navigation a {
+
+	font-size:12px;
+	color: #003366;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px;
+	background: url("/Taurent_Travel/images/left.png") 14px 45% repeat;
+
+}
+	
+.navigation a:hover {
+	background: #C0DFFD; url("/Taurent_Travel/images/mm_arrow.gif") 14px 45% no-repeat;
+	color:#FF6600;
+}
+
+.subHeader{
+
+	width:100%;
+	font-size: 14px;
+	vertical-align: center;
+	horizontal-align:center;
+	font-family: Calibri;
+	background-image:url(/Applicant_Assessment_System/images/left.png);
+	background-repeat:repeat;
+
+}
+
+
+#current a {
+	color: #FFFFFF !important;
+	background-image:url(/Applicant_Assessment_System/images/t.png);
+	background-repeat:repeat;
+}
+
+#minicart {
+	font-size: 10px;	
+}
+
+.entryTable {
+	font-family:Calibri;
+	font-size: 12px;
+	background:url(/Applicant_Assessment_System/images/left.png);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.entryTableHeader {
+	font-family: Calibri;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.entryTable .label {
+	background-color: #EFEFEF;
+}
+
+.entryTable .content {
+	background-color: #FFFFFF;
+}
+
+.choices{
+	font-family:"Calibri";
+	font-size:14px
+
+}
+
+.infoTable {
+	font-family:Calibri;
+	font-size: 12px;
+	background-color: #DDDDDD;
+}
+
+.infoTableHeader {
+	font-family: Calibri;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.infoTable .label {
+	background-color: #EFEFEF;
+}
+
+.infoTable .content {
+	background-color: #FFFFFF;
+}
+
+.box {
+	font-family:Calibri;
+	font-size: 12px;
+}
+
+.notice {
+	color: #996600;
+	font-weight: bold;
+}
+
+.addToCartButton {
+	font-family: Calibri;
+	font-size: 12px;
+	color:#333333;
+	font-weight:bold;
+	background-color:#FFCC00;
+}
+
+#errorMessage {
+	color: #990000;
+	font-weight: bold;
+}
+
+#menu {
+	width: 150px;
+	font-size: 12px;
+	vertical-align: top;
+	font-size: 85%;
+}
+
+#menu a {
+	/*/*/padding: 3px; 
+	display: block;
+	text-decoration: none;
+	line-height: 1em;
+	width: 300px /* */
+}
+
+#menu a:link, #menu a:visited {
+	color: #666;
+}
+
+#menu a:hover, #menu a:active {
+	color: #FFFFFF;
+	background-color: #6699CC;
+}
+
+input, textarea{
+	font-family:Calibri;
+	font-size:12pt;
+}
+
