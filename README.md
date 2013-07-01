@@ -6,4 +6,4 @@ This DSS (Decision Support System) is intended to aid employers in hiring and se
 
 Scripting Languages: (server-side: PHP), (client-side: HTML, Javascript)
 
-RDBMS: Mysql
+RDBMS: MySQL
